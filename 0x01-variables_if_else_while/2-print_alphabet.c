@@ -1,22 +1,19 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
- *
- *
- * Return: Always 0 (Sucess)
- */
+  * main - this is the function of the task
+  * Return: 0
+  * */
 
 int main(void)
+
 {
-	char c;
+char i;
 
-	for (c = 'a' ; c <= 'z' ; c++)
-	{
-		putchar(c);
-	}
-	putchar('\n');
-	return (0);
+for (i = 'a'; i <= 'z'; i++)
+putchar(i);
+putchar('\n');
+
+return (0);
+
 }
-
-
